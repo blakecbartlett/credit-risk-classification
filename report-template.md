@@ -46,4 +46,5 @@ Summarize the results of the machine learning models, and include a recommendati
     - The importance of predicting high-risk loans (1) is paramount due to the potential financial losses, making the slight improvement in recall (0.91) with logistic regression particularly valuable. Logistic regression provides a well-balanced trade-off between precision and recall across both classes, making it a dependable option for deployment in a loan application approval system. If further refinement is required, exploring additional features or methods could potentially enhance the model's performance.
 
 If you do not recommend any of the models, please justify your reasoning.
+
     - Based on the evaluation metrics, the Logistic Regression model is recommended for deployment. It excels overall, particularly in predicting healthy loans with near-perfect metrics, while also maintaining strong performance in predicting high-risk loans. This balance is essential for minimizing financial risk while ensuring a high level of accuracy.
